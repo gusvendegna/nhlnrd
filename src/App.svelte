@@ -38,7 +38,7 @@
 
 <main class="p-5">
   <div class="flex flex-col items-center justify-center">
-    <h1 class="text-5xl font-bold m-8">Gus + Tyty</h1>
+    <h1 class="text-5xl font-bold m-8">nhlnerd.</h1>
   </div>
   <div>
     <h2 class="text-2xl font-bold m-8">This week ({new Date().toLocaleDateString()})</h2>
