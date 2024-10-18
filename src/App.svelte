@@ -110,43 +110,42 @@
               </div>
             </td>
             <td class="px-6 py-7 flex items-center">
-              {#if game.gameState != "PRE"}
+              {#if game.gameState != "PRE" &&  game.gameState != "FUT"}
                 <p class="text-md">{game.homeTeam.score}</p>
-
               {/if}
             </td>
             <td>
-              {#if game.gameState != "PRE"}
+              {#if game.gameState != "PRE" &&  game.gameState != "FUT"}
                 <p class="text-md">{game.awayTeam.score}</p>
 
               {/if}
             </td>
             <td>
-              {#if game.gameState != "PRE"}
+              {#if game.gameState != "PRE" &&  game.gameState != "FUT"}
                 <p class="text-md">{game.homeTeam.sog}</p>
               {/if}
             </td>
             <td>
-              {#if game.gameState != "PRE"}
+              {#if game.gameState != "PRE" &&  game.gameState != "FUT"}
                 <p class="text-md">{game.awayTeam.sog}</p>
               {/if}
             </td>
             <td>
-              {#if game.gameState != "PRE"}
+              {#if game.gameState != "PRE" &&  game.gameState != "FUT"}
               <div class="flex">
                 <p class="text-md">{game.period}</p>
-                {#if game.periodDescriptor.periodType == "REG"}
+                <!-- {#if game.periodDescriptor.periodType == "REG"}
                   <p class="text-md ml-1">Regulation</p>
                 {:else}
                   <p class="text-md">Overtime</p>
-                {/if}
+                {/if} -->
               
             </div>
             {/if}
             </td>
             <td>
-              {#if game.gameState != "PRE"}
-                <p class="text-md pl-10">n/a</p>
+              {#if game.gameState != "PRE" ||  game.gameState != "FUT"}
+                <!-- <p class="text-md pl-10">n/a</p> -->
               {/if}
             </td>
           </tr>
