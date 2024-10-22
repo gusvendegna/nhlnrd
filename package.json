@@ -13,11 +13,14 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "svelte": "^4.2.19",
+    "svelte-routing": "^2.13.0",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.8"
   },
   "dependencies": {
+    "@internationalized/date": "^3.5.6",
     "@popperjs/core": "^2.11.8",
+    "bits-ui": "^0.21.16",
     "flowbite": "^2.5.2",
     "flowbite-svelte": "^0.47.1",
     "tailwind-merge": "^2.5.4"
