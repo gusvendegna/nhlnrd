@@ -36,7 +36,7 @@
 <Router {url}>
   <nav>
     <div class="flex flex-col items-center justify-center">
-      <h1 class="text-5xl font-bold mt-8 pb-0.5 border-b-4">nhlnerd.</h1>
+      <h1 class="text-5xl font-bold mt-8 pb-0.5 border-b-4">nhlnrd.</h1>
 
       <!-- <TopBar/> -->
       <div class="flex-col pt-1">
